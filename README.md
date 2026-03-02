@@ -1,7 +1,9 @@
 # ICLR 2026 Safety Paper Analyse
 
+## 在markdown文件下阅读
+
 ## 目的
-调用 OpenReview API 获取 ICLR 2026 的中稿论文，筛选安全相关论文并进行统计分析；随后使用 LLM 进行细粒度类别标注与摘要中文翻译，最终按类别生成可直接上传 GitHub 的 Markdown 目录，便于后续阅读与维护（在markdown文件下进行阅读）。
+调用 OpenReview API 获取 ICLR 2026 的中稿论文，筛选安全相关论文并进行统计分析；随后使用 LLM 进行细粒度类别标注与摘要中文翻译，最终按类别生成可直接上传 GitHub 的 Markdown 目录，便于后续阅读与维护。
 
 ## 目录结构（关键产物）
 - `paper_info/`
