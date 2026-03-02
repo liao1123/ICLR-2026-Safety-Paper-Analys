@@ -1,0 +1,6 @@
+chromadb 
+markdown 
+google-generativeai 
+sentence_transformers 
+openreview-py
+wordcloud
