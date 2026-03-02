@@ -45,6 +45,22 @@
   - `Abstract (Chinese)`（来自 `abstract_zh`）
 - 生成总目录：`markdown/README.md`（包含分类列表与分布图）
 
+## 环境变量配置
+本项目通过 `.env` 读取运行所需的环境变量
+
+在项目根目录创建 `.env`，需要包含以下 4 个变量：
+```bash
+BASE_URL="http://<your-host>:<port>/v1/"
+API_KEY="sk-***"
+
+OPENREVIEW_USERNAME="your_email@example.com"
+OPENREVIEW_PASSWORD="your_password"
+```
+
+说明：
+- `BASE_URL` / `API_KEY`：用于 `llm_category_safety_paper.py` 的 LLM 调用（OpenAI SDK 兼容接口）
+- `OPENREVIEW_USERNAME` / `OPENREVIEW_PASSWORD`：用于 OpenReview 抓取（`get_iclr_2026_paper_info.py`）
+
 ## 快速开始（推荐执行顺序）
 ```bash
 python get_iclr_2026_paper_info.py
