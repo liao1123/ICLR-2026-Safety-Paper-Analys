@@ -67,3 +67,7 @@ python get_iclr_2026_paper_info.py
 python llm_category_safety_paper.py
 python change_2_markdown.py
 ```
+
+## 未来
+
+之后可以进一步根据paper url和pdf调用llm来对原文和review进行进一步分析
